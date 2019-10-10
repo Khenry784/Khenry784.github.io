@@ -1,6 +1,7 @@
 html{
-    background-color: coral;
-    padding: 0.1cm;
+    background-color:#FFF;
+    padding: 1cm;
+    
 }
 body{
     background-color: #FFF;
@@ -9,6 +10,7 @@ body{
     max-width: 50cm;
     height: 52.625cm;
     font-size: 15px;
+    
 
 }
 #container{
@@ -17,18 +19,29 @@ body{
     width: 100%;
     text-align: center;
     float: center;
-    background-color: coral;
+    background-color:green;
+    
+    
+    
 }
+
 .header{
     display: center;
     justify-content: flex-start;
     align-items: center;
     height:150px;
+    border-style: solid;
+    border-color: white;
+    border-width: 40px;
+    
+    
 }
 .title-holder{
     align-items: center;
+    
 }
-.developer{
+.jobtitle{
+    
     color: whitesmoke;
     text-decoration:  underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -39,14 +52,17 @@ body{
     text-transform: uppercase;
     font-size: 36px;
     font-weight: bold;
+    
+
 }
 #section-left{
-    width: 35%;
+    width: 20%;
     float: left;
-    height: 100%;
+    height: 90%;
     background-color: grey;
     
     text-align: center;
+    
 }
 #section-left .section{
     margin-top: 40%;
@@ -59,7 +75,7 @@ img{
     height: 100px;
     border-radius:50%;
     margin:20px;
-    transform(90deg);
+    
 }
 
 .intro hr{
@@ -87,10 +103,11 @@ h1{
 
 }
 #section-right{
-    width: 65%;
+    width: 75%;
     float: right;
     height: 100%;
 }
+
 #section-right .section{
     margin:0 0 30px 0;
 
@@ -110,7 +127,7 @@ margin-right: 15px;
     border-bottom: 2px solid #f2f2f2;
 }
 a:link{
-    color:#fff;
+    color: blue;
     text-decoration: none;
 }
 a:visited{
@@ -127,7 +144,7 @@ a:active{
 }
 h2{
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
 }
 h3{
    font-size: 12px;
