@@ -1,0 +1,136 @@
+html{
+    background-color: coral;
+    padding: 0.1cm;
+}
+body{
+    background-color: #FFF;
+    font-family: "Lato",sans-serif;
+    margin: 1cm auto;
+    max-width: 50cm;
+    height: 52.625cm;
+    font-size: 15px;
+
+}
+#container{
+    display: center;
+    flex-direction:column;
+    width: 100%;
+    text-align: center;
+    float: center;
+    background-color: coral;
+}
+.header{
+    display: center;
+    justify-content: flex-start;
+    align-items: center;
+    height:150px;
+}
+.title-holder{
+    align-items: center;
+}
+.developer{
+    color: whitesmoke;
+    text-decoration:  underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.name{
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+#section-left{
+    width: 35%;
+    float: left;
+    height: 100%;
+    background-color: grey;
+    
+    text-align: center;
+}
+#section-left .section{
+    margin-top: 40%;
+    margin-bottom: 40%; 
+    padding: 0.5cm;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin:20px;
+    transform(90deg);
+}
+
+.intro hr{
+    width: 4cm;
+    display:block;
+    height: 2px;
+    border: 0px;
+    border-top: 2px solid;
+
+}
+.dob{
+    text-decoration: overline underline;
+}
+.intro .content{
+    margin-bottom: 20px;
+    
+}
+#contact{
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: initial; 
+    font-size: 36px;
+
+}
+#section-right{
+    width: 65%;
+    float: right;
+    height: 100%;
+}
+#section-right .section{
+    margin:0 0 30px 0;
+
+}
+.wrapper{
+    padding: 2cm;
+}
+.fa {
+margin-right: 15px;
+}
+.wrapper .title{
+    color: #fc7a70; 
+    font.size: 1.3cm;
+    font-variant:small-caps;
+    letter-spacing:0.1cm;
+    font-weight:bold;
+    border-bottom: 2px solid #f2f2f2;
+}
+a:link{
+    color:#fff;
+    text-decoration: none;
+}
+a:visited{
+    color:#FFF;
+    text-decoration: none;
+}
+a:hover{
+    color:#FFF;
+    text-decoration: none;
+}
+a:active{
+    color: #FFF;
+    text-decoration: none;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+h3{
+   font-size: 12px;
+   text-transform: uppercase;
+   font-weight:normal;  
+}
